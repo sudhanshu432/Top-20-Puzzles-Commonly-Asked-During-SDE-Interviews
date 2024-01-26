@@ -1,0 +1,16 @@
+Puzzle | 10 Balls in 5 Lines
+
+Puzzle:
+Given are ten balls, the task is to place these 10 balls in five lines such that each line contain exactly 4 balls.
+
+Solution: 
+The solution to the above puzzle can be obtained as:
+
+1. Draw the star with a pentagon in the centre.
+2. Place each ball at the intersection of extended lines of pentagon
+3. Then place remaining balls on 5 vertices of pentagon.
+
+Hence the solution to the “Ten balls in five lines” is:
+
+Article Tags : Arrangement Puzzles Puzzles
+Practice Tags : Puzzles

@@ -1,0 +1,37 @@
+Puzzle | Mislabeled Jars
+
+Puzzle: 
+There are 3 jars, namely, A, B, C. All of them are mislabeled. 
+Following are the labels of each of the jars:
+
+A: Candies
+B: Sweets
+C: Candies and Sweets (mixed in a random proportion)
+
+You can put your hand in a jar and pick only one eatable at a time. 
+Tell the minimum number of eatable(s) that has/have to be picked in order 
+to label the jars correctly.
+
+Assume that the shape of the candies and sweets are identical and there is no way 
+to differentiate them by touching alone.
+
+
+
+Answer: 
+1 pick of an eatable is required to correctly label the Jars.
+
+Solution:
+You have to pick only one eatable from jar C. 
+Suppose the eatable is a candy, then the jar C contains candies only(because all the jars were mislabeled).
+
+Now, since the jar C has candies only, Jar B can contain sweets or mixture. 
+But, jar B can contain only the mixture because its label reads “sweets” which is wrong.
+
+Therefore, Jar A contains sweets. Thus the correct labels are:
+A: Sweets.
+B: Candies and Sweets.
+C: Candies.
+
+Article Tags :Logical Puzzles 
+
+Practice Tags :Puzzles
